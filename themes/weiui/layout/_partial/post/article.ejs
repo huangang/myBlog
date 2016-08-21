@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="/css/prettify.css">
+<script type="text/javascript" src="/js/prettify.js"></script>
+<div id="article">
+    <div class="page">
+        <div class="hd">
+            <h1 class="page_title"><%=item.title%></h1>
+        </div>
+        <div class="bd">
+            <article class="weui_article">
+                <%-item.content%>
+            </article>
+        </div>
+    </div>
+</div>
+<script>
+    $(function() {
+        $('pre').addClass('prettyprint linenums').attr('style', 'overflow:auto');
+    });
+</script>

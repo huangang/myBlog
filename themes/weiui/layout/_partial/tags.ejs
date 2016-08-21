@@ -1,0 +1,7 @@
+<%
+page.tag = ' ';
+%>
+<%= __('tags') %>
+<% site.tags.sort('name').each(function(item){ %>
+<a data-src="<%- config.root %><%- item.path %>" href="#<%= item.name %>" title="<%= item.name %>"><%= item.name %><sup><%= item.posts.length %></sup></a>
+<% }); %>
