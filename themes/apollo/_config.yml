@@ -27,4 +27,4 @@ startyear: 2014
 #false: use useso fonts api instead of google's, great response speed for chinese visitor
 googlefonts: false
 
-github: zhanghuangang
+github: huangang

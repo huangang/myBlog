@@ -6,7 +6,7 @@ weiui is a design for weixin theme for [Hexo](http://hexo.io)
 ##Installation
 ###Install
 ```
-$ git clone https://github.com/zhanghuangang/weiui.git themes/weiui
+$ git clone https://github.com/huangang/weiui.git themes/weiui
 ```
 
 ##License
