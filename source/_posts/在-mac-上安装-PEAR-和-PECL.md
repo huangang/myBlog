@@ -1,6 +1,6 @@
 title: 在 mac 上安装 PEAR 和 PECL
 date: 2016-09-18 07:29:43
-tags:[mac,pecl,pear,php]
+tags: [mac,pecl,pear,php]
 ---
 ## 下载 PEAR
 ```
@@ -9,6 +9,7 @@ $ brew install autoconf
 $ curl -O http://pear.php.net/go-pear.phar
 $ [sudo] php -d detect_unicode=0 go-pear.phar
 ```
+<!-- more -->
 
 ## 配置和安装 PEAR
 1. 选择 1 然后按回车键。      
