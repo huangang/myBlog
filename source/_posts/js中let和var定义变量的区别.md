@@ -34,7 +34,7 @@ tags: [javascript,严格模式]
 (function() {
   var varTest = 'test var OK.';
   var varTest = 'varTest changed.';
-  console.log(varTest); //输出varTest changed.(注意要注释掉上面letTest变量的重复声明才能运行)
+  console.log(varTest); //输出varTest changed.
 }());
 
 (function() {
