@@ -2,6 +2,8 @@ title: js中let和var定义变量的区别
 date: 2016-10-30 12:57:26
 tags: [javascript,严格模式]
 ---
+注:如果要使用`let`声明变量,必须在文件头添加`'use strict'`严格模式的声明,不然会报错.
+<!-- more -->
 ## 1.声明后未赋值，表现相同
 ``` javascript
 'use strict';
@@ -29,17 +31,13 @@ tags: [javascript,严格模式]
 
 (function() {
   var varTest = 'test var OK.';
-
   var varTest = 'varTest changed.';
-
   console.log(varTest); //输出varTest changed.(注意要注释掉上面letTest变量的重复声明才能运行)
 }());
 
 (function() {
   let letTest = 'test let OK.';
-
   let letTest = 'letTest changed.';
-
   console.log(letTest); ///直接报错: Uncaught SyntaxError: Identifier 'letTest' has already been declared
 }());
 ```
