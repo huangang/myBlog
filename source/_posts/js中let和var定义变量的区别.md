@@ -5,7 +5,7 @@ tags: [javascript,严格模式]
 注:如果要使用`let`声明变量,必须在文件头添加`'use strict'`严格模式的声明,不然会报错.
 <!-- more -->
 ## 1.声明后未赋值，表现相同
-``` javascript
+``` js
 'use strict';
 
 (function() {
@@ -16,7 +16,7 @@ tags: [javascript,严格模式]
 }());
 ```
 ## 2.使用未声明的变量，表现不同:
-``` javascript
+``` js
 'use strict';
 
 (function() {
@@ -28,7 +28,7 @@ tags: [javascript,严格模式]
 }());
 ```
 ### 3.重复声明同一个变量时，表现不同：
-``` javascript
+``` js
 'use strict';
 
 (function() {
@@ -44,7 +44,7 @@ tags: [javascript,严格模式]
 }());
 ```
 ## 4.变量作用范围，表现不同
-``` javascript
+``` js
 'use strict';
 
 (function() {
