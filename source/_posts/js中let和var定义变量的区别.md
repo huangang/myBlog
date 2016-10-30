@@ -17,6 +17,8 @@ tags: [javascript,严格模式]
 ```
 ## 2.使用未声明的变量，表现不同:
 ``` javascript
+'use strict';
+
 (function() {
   console.log(varTest); //输出undefined(注意要注释掉下面一行才能运行)
   console.log(letTest); //直接报错: Uncaught ReferenceError: letTest is not defined
