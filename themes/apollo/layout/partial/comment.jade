@@ -1,15 +1,13 @@
-if theme.duoshuo
-    .ds-thread(data-thread-key=page.path, data-title=page.title, data-url=page.permalink, data-author-key='1')
+if theme.yungentie
+    <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
     script.
-        var duoshuoQuery = {short_name:"#{theme.duoshuo}"};
-        (function() {
-            var ds = document.createElement('script');
-            ds.type = 'text/javascript';ds.async = true;
-            ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-            ds.charset = 'UTF-8';
-            (document.getElementsByTagName('head')[0] 
-             || document.getElementsByTagName('body')[0]).appendChild(ds);
-        })();
+        var cloudTieConfig = {
+            url: document.location.href,
+            sourceId: "",
+            productKey: "#{theme.yungentie}",
+            target: "cloud-tie-wrapper"
+        };
+    script(src='//img1.cache.netease.com/f2e/tie/yun/sdk/loader.js')
 
 
 if theme.disqus
