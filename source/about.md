@@ -6,6 +6,9 @@ date: 2015-12-26 21:54:45
 </div>
 
 # 掌握技能
+## node
+<div class="tip">loopback、thinkjs、eggjs</div>
+
 ## php
 <div class="tip">laravel、lumen、workerman、codeigniter、thinkphp</div>
 
@@ -13,14 +16,14 @@ date: 2015-12-26 21:54:45
 <div class="tip">angular、vue 、jquery</div>
 
 ## 数据库
-<div class="tip">mysql、redis、mogondb</div>
+<div class="tip">mysql、redis、mogondb 、elasticsearch</div>
 
 ## 学习过的    
 <div class="tip">
-java、asp.net、android、ionic、node
+java、asp.net、android、ionic
 </div>
    
 ## 工作于
 <div class="tip">
-浙江聚家网络科技有限公司,主要从事php全栈开发
+杭州当堂信息技术有限公司,主要从事node web开发
 </div>
