@@ -5,9 +5,10 @@ tags: [centos7,jxcore, jx]
 # 下载
 到这个地址https://github.com/thaliproject/jxbuild/blob/master/distribute.md   
 下载最新linux环境的(jx_linux64v8.zip)，然后解压出`jx`，执行`mv jx /usr/bin/`
+<!-- more -->
 # 问题
 执行`jx -v`可能会看到
-```bash
+```
 jx: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.20' not found (required by jx)   
 jx: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.21' not found (required by jx)
 ```
