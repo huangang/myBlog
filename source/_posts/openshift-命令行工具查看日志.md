@@ -2,7 +2,8 @@ title: openshift 命令行工具查看日志
 date: 2019-07-03 15:53:49
 tags: [openshift, mac]
 ---
-
+> 因为有时候访问oc的web页面比较慢,而且日志只能看5000条
+<!-- more -->
 ## 安装
 ``` bash
 brew install openshift-cli
