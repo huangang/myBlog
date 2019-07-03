@@ -2,7 +2,7 @@ title: 我当社长的那一年
 date: 2014-05-15 21:31:34
 tags: [日志,回忆]
 ---
-![聘书](http://http://huangang.pupued.com/20140515073711-700x220.jpg)
+![聘书](http://huangang.pupued.com/20140515073711-700x220.jpg)
 <!-- more -->
 一年前，我还是茫然迷茫，不知未来——-大一。
 

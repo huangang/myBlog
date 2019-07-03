@@ -12,9 +12,9 @@ chmod +x shadowsocks.sh
 ./shadowsocks.sh 2>&1 | tee shadowsocks.log
 ```
 ## 3.输入你想要设置的密码，并回车，再次回车，确认安装        
-![3](http://7xpihd.com1.z0.glb.clouddn.com/160C1CBA-6A00-4B8A-AD72-19BC6A44D020.png)   
+![3](http://huangang.pupued.com/160C1CBA-6A00-4B8A-AD72-19BC6A44D020.png)   
 ## 4. 等待2分钟左右，即可安装成功，安装成功之后就会通过屏幕输出，您的IP地址，端口，密码，及加密方式。              
-![4](http://7xpihd.com1.z0.glb.clouddn.com/FA580353-24DF-4122-A39C-0C82E1DEB387.png)
+![4](http://huangang.pupued.com/FA580353-24DF-4122-A39C-0C82E1DEB387.png)
 现在你就可以使用Shadowsocks了
 
 > 如果想多用户使用,请配置 `/etc/shadowsocks.json` 这个文件。
