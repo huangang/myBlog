@@ -12,5 +12,6 @@ tags: [PostgreSQL, GraphQL, hasura]
  ## 解决方法
  执行下面sql语句
   ``` sql
-  SELECT setval(pg_get_serial_sequence('table_name', 'id'), coalesce(max(id),1), false) FROM table_name;
+  SELECT setval(pg_get_serial_sequence('table_name', 'id'), 
+  coalesce(max(id),1), false) FROM table_name;
   ``` 
