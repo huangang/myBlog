@@ -1,5 +1,5 @@
 title: >-
-  解决PostgreSQL Uniqueness violation. duplicate key value violates unique
+  解决 PostgreSQL Uniqueness violation. duplicate key value violates unique
   constraint
 date: 2019-07-07 19:51:34
 tags: [PostgreSQL, GraphQL, hasura]
