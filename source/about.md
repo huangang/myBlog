@@ -20,7 +20,7 @@ date: 2019-07-08 22:42:19
 
 ## 学习过的    
 <div class="tip">
-java、asp.net、android、ionic(cordova)
+flutter、java、asp.net、android、ionic(cordova)
 </div>
    
 ## 工作于
