@@ -1,19 +1,20 @@
 title: 关于我
 date: 2019-07-08 22:42:19
 ---
+
 <div class="tip">
 非著名码农,关注web开发,全栈开发
 </div>
 
 # 掌握技能
 ## node
-<div class="tip">fastify、uWebSockets.js、loopback、thinkjs、eggjs</div>
+<div class="tip">nestjs、fastify、uWebSockets.js、loopback、thinkjs、eggjs</div>
 
 ## php
 <div class="tip">laravel、lumen、workerman、codeigniter、thinkphp</div>
 
 ## javascript
-<div class="tip">angular、vue 、jquery</div>
+<div class="tip">react、angular、vue 、jquery</div>
 
 ## 数据库
 <div class="tip">graphql、elasticsearch、mysql、redis、mogondb</div>
