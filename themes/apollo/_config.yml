@@ -1,0 +1,29 @@
+menu:
+    博客: /
+    关于: /about.html
+    归档: /archives/
+    微博: http://weibo.com/zhanghuangang/
+    Rss: /atom.xml
+
+favicon: /favicon.png
+logo: /favicon.png
+
+# Comment
+# e.g disqus: seansun
+disqus: blog-huangang-net
+
+# Analytics
+# google-analytics:
+ga: UA-72484043-1
+# baidu-analytics:
+ba: 5c799f80fcca477c71a52e060bda6468
+
+# Copyright Infomation
+startyear: 2014
+
+# Font CDN
+#true : use google fonts api, not stable for chinese visitor sometimes, caused by force majeure factor
+#false: use useso fonts api instead of google's, great response speed for chinese visitor
+googlefonts: false
+
+github: huangang

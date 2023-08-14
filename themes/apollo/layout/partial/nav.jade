@@ -1,0 +1,7 @@
+ul.nav.nav-list
+    each value, key in theme.menu
+        li.nav-list-item
+            - var re = /^(http|https):\/\/*/gi;
+            - var tar = re.test(value) ? "_blank" : "_self"
+            a.nav-list-link(class={active: (is_home() && value === "/") || (value == '/archives/' && is_archive() || (value == '/about.html' && key == '关于' && !is_home() && !is_post() && !is_tag() && !is_archive() ))} href=value target=tar)
+                != key.toUpperCase()
